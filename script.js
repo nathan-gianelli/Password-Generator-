@@ -145,4 +145,3 @@ document.querySelector("#generate").addEventListener("click", function (e) {
     var GeneratedPassword = generatePassword();
     document.getElementById("password").placeholder = GeneratedPassword;
 });
-
